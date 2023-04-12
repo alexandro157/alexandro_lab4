@@ -1,5 +1,5 @@
 FROM node
-LABEL maintainer jfarfan@tecsup.edu.pe
+LABEL maintainer alexandro.choque@tecsup.edu.pe
 RUN git clone -q https://github.com/alexandro157/alexandro_lab4.git
 WORKDIR alexandro_lab4
 RUN npm install > /dev/null
